@@ -36,11 +36,14 @@ h1, h2, h3, h4, h5, h6, strong{
 	font-weight: 500;
 }
 
-p, li, span, label, input, textarea{
-	color: var(--secondaryText);
-	font-family: 'Roboto Mono', monospace;
-}
 
+p, li, span, label, input, textarea {
+    color: var(--secondaryText);
+    font-family: 'Roboto Mono', monospace;
+    width: 225%;
+	text-align: justify;
+    text-justify: inter-word;
+}
 a{
 	text-decoration: none;
 	color:#17a2b8;
