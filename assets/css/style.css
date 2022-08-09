@@ -944,6 +944,7 @@ section {
 # Pricing
 --------------------------------------------------------------*/
 .pricing .box {
+  height: 677px;
   padding: 40px 20px;
   background: #fff;
   text-align: center;
