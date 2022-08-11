@@ -91,6 +91,18 @@ section {
   }
 }
 
+.services-left{
+  color: #3861a9;
+}
+.services-right{
+  color: #3861a9;
+}
+
+.fluid {
+  max-width: 125%;
+  height: auto;
+  height: 694px;
+}
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 500;
@@ -565,14 +577,16 @@ section {
 }
 
 .about .btn-read-more {
-  line-height: 0;
-  padding: 15px 40px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: #fff;
-  background: #4154f1;
-  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+    line-height: -2;
+    width: -webkit-fill-available;
+    padding: 12px 40px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #4154f1;
+    box-shadow: 0px 5px 25px rgb(65 84 241 / 30%);
 }
+
 
 .about .btn-read-more span {
   font-family: "Nunito", sans-serif;
